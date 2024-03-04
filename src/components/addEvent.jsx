@@ -17,7 +17,7 @@ export default function AddEvent() {
 
   const handleInputChange = (e) => {
     setEventItem({ ...eventItem,
-
+//test
          [e.target.name]: e.target.value ,
          [e.target.description]: e.target.value,
          [e.target.price]: e.target.value,
